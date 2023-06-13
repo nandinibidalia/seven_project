@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Display</title>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <a href="logout">Logout</a>
+    {% for image in images %}
+        <h2>{{ image.title }}</h2>
+        <img src="{{ image.image.url }}" alt="{{ image.title }}">
+    {% empty %}
+        <p>No images found.</p>
+    {% endfor %}
+</body>
+</html>

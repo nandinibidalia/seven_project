@@ -1,0 +1,15 @@
+#username{
+  border: 2px solid red;
+  margin: 10px;
+}
+#password{
+  border: 2px solid green;
+  margin: 10px;
+}
+.header{
+  border: 5px solid blue;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  padding: 20px;
+}

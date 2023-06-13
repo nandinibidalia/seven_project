@@ -1,0 +1,12 @@
+.header{
+  border: 5px solid red;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  padding: 40px;
+}
+.anch{
+  margin: 10px;
+  border: 2px solid brown;
+  padding: 20px;
+}
